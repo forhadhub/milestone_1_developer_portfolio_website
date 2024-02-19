@@ -1,41 +1,32 @@
 body{
-    // <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 800
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+  }
+.primary_text {
+  color: rgb(253, 110, 10);
 }
-}
-.primary_text{
-    color: rgb(253, 110, 10);
-}
-.primary_button{
-    border-radius: 5px;
-    background: rgb(253, 110, 10);
-    border: 0px;
-    color: white;
-    padding: 18px 36px;
+.primary_button {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: 0px;
+  color: white;
+  padding: 18px 36px;
 }
 
-.title{
-    font-size: 45px;
+.title {
+  font-size: 45px;
 }
-nav{
-    display: flex;
-    color: rgb(24, 24, 24);
-    align-items: center;
-    justify-content: space-between;
+nav {
+  display: flex;
+  color: rgb(24, 24, 24);
+  align-items: center;
+  justify-content: space-between;
 }
-nav >ul{
-    display: flex;
-    list-style: none;
-    font-size: 20px;
-    align-items: center;
+nav > ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  align-items: center;
 }
-nav li{
-    margin-right: 50px;
+nav li {
+  margin-right: 50px;
 }
