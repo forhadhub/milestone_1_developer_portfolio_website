@@ -1,6 +1,6 @@
-body{
-    font-family: "Open Sans", sans-serif;
-  }
+body {
+  font-family: "Open Sans", sans-serif;
+}
 .primary_text {
   color: rgb(253, 110, 10);
 }
@@ -29,4 +29,15 @@ nav > ul {
 }
 nav li {
   margin-right: 50px;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  align-items: center;
+  margin-right:38px;
+}
+.banner_img1 {
+  width: 500px;
+  height: 550px;
 }
